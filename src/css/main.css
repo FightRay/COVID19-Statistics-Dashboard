@@ -1,0 +1,130 @@
+/* 
+ * @author Oshri (Ray) Bouhin
+ * All that is written in this file is a property
+ * of the ReyNetwork organization and the author of this file.
+ * Please abide the rules and standards of this project's repository.
+ */
+
+.App {
+    background-color: #282c34;
+    min-height: 100vh;
+    color: white;
+}
+
+.App-logo {
+    width: 4vw;
+    pointer-events: none;
+    position: absolute;
+    left: 1.5vw;
+}
+
+.App-header {
+    width: 100vw;
+    height: 4vw;
+    background-color: #1e2125;
+    pointer-events: none;
+    position: fixed;
+    z-index: 4;
+}
+
+.App-logo-text {
+    position: absolute;
+    font-size: 2.5vw;
+    left: 7.5vw;
+}
+
+.subTitle {
+    position: absolute;
+    font-size: 1.5vw;
+    margin-top: -2.5vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-nav {
+    width: 8vw;
+    height: calc(100vh - 4vw);
+    top: 4vw;
+    background-color: #1e2125;
+    pointer-events: none;
+    position: fixed;
+    z-index: 3;
+    pointer-events: all;
+}
+
+.nav-item {
+    width: 100%;
+    height: 10vh;
+    background-color: #1c1f23;
+    border: 0.02vh solid #541717;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+}
+
+.sbutton {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    height: inherit;
+    left: 10%;
+}
+
+a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.App-content {
+    position: absolute;
+    width: 84vw;
+    top: 4vw;
+    left: 8vw;
+    background-color: #282c34;
+    background-repeat: repeat;
+    min-height: calc(100vh - 12vw);
+    margin: 4vw;
+    z-index: 2;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.chartBox {
+    width: 75vw;
+    height: 20vw;
+    left: 4vw;
+}
+
+.apexcharts-svg {
+    background-color: transparent !important;
+}
+
+.apexcharts-toolbar {
+    z-index: 2;
+}
+
+.rdt_TableHeader {
+    display: none !important;
+}
+
+.rdt_TableBody {
+
+}
